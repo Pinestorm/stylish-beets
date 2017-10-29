@@ -6,25 +6,33 @@ html {
 a {
   color: #8f2440;
   text-decoration: none;
-  font-weight: bold;
+  font-weight: bolder;
+  font-family: 'PT Sans', sans-serif;
+}
+
+a:hover {
+  color: #3f1622;
+  text-decoration: none;
+  font-family: 'PT Sans', sans-serif;
 }
 
 h1 {
   color: #3f1622;
   font-family: 'PT Sans', sans-serif;
   font-size: 1.5rem;
-  font-weight: bold;
+  font-weight: bolder;
 }
 
 h2 {
   color: #3f1622;
   font-family: 'PT Sans', sans-serif;
-  font-weight: bold;
+  font-weight: bolder;
 }
 
 dt {
   color: #3f1622;
   font-weight: bold;
+  font-family: 'PT Serif', serif;
 }
 
 p {
@@ -50,40 +58,49 @@ img {
 figcaption {
   text-align: center;
   font-style: italic;
+  font-family: 'PT Serif', serif;
 }
 
 .para {
   font-weight: bold;
   font-size: 1.125rem;
+  font-family: 'PT Serif', serif;
 }
 
 .serve {
   font-style: italic;
+  font-family: 'PT Serif', serif;
 }
 
 cite {
   font-style: italic;
+  font-family: 'PT Serif', serif;
 }
 
 .firstquote {
   font-weight: bold;
   font-style: italic;
   font-size: 1.5rem;
+  font-family: 'PT Serif', serif;
 }
 
 .varieties {
   list-style-type: lower-greek;
+  font-family: 'PT Serif', serif;
 }
 
 .tags {
   list-style-type: circle;
   font-size: .8rem;
+  font-family: 'PT Serif', serif;
 }
 
 footer {
   font-size: .8rem;
+  font-family: 'PT Serif', serif;
 }
 
 .wikipedia {
   font-weight: normal;
+  font-family: 'PT Serif', serif;
 }
